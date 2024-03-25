@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PTS</title>
+    <link rel="stylesheet" href="config/css/output.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-white dark:bg-df1 dark:text-white">
+    <header class="flex md:flex-row flex-col justify-between py-10 w-[80%] m-auto">
+        <div class="flex justify-between w-full">
+      <h1 class="md:text-3xl text-2xl font-bold">Hasan Basri Bayat</h1>
+      <div class="md:hidden block">
+        <i class="bx bx-menu text-3xl" onclick="showHideMenu()"></i>
+      </div>
+    </div>
+      <nav id="menu" class="md:block hidden">
+        <ul class="flex md:flex-row flex-col justify-around gap-8 md:py-0 py-10 basis-auto">
+          <li class="text-lg font-semibold">About</li>
+          <li class="text-lg font-semibold">Articles</li>
+          <li class="text-lg font-semibold">Project</li>
+          <li class="text-2xl"><i class="bx bx-search"></i></li>
+          <li class="text-2xl" ><i id="iconDark" class="bx bx-sun" onclick="switchDark()"></i></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="isi" class="flex md:flex-row flex-col-reverse justify-center items-center m-auto w-[90%]">
+      <div id="kiri" class="p- flex flex-col md:gap-4 gap-2 md:w-1/2 w-full">
+        <p class="text-gray-400">PROFESSIONAL</p>
+        <h1 class="md:text-6xl text-3xl font-bold font leading-">Flutter Developer</h1>
+        <h1 class="md:text-6xl text-3xl font-bold font leading-">and UI/UX Designer</h1>
+        <div class="gap-1">
+          <p class="text-gray-400">
+            My man goal is travelling the whole world while remotely!
+          </p>
+          <p class="text-gray-400">
+            If you'd like to help/work with me. Let's get in touch!
+          </p>
+        </div>
+        <div class="flex justify-start md:pb-0 pb-10">
+          <button class="bg-black text-white rounded-xl py-3 px-7 md:w-[20%] w-full">
+            Say Hello!
+          </button>
+        </div>
+      </div>
+      <div id="kanan" class="py-10">
+        <img src="config/img/Group 1191.png" alt="" />
+      </div>
+    </section>
+
+    <section class="md:px-36 px-4 pb-36">
+      <div id="semuaIsi" class="flex flex-col gap-6">
+        <div id="menuSect" class="flex justify-between">
+          <h4 class="font-bold text-3xl">Latest Articles</h4>
+          <p class="text-gray-400 font-semibold">SEE ALL</p>
+        </div>
+        <div id="semuaTopic" class="w-full flex flex-col gap-6">
+          <div id="topic1" class="w-full">
+            <div id="subtop" class="flex md:flex-row flex-col gap-12 w-full ">
+                <div class="md:w-1/2 w-full">
+                    <img class="rounded-2xl" src="config/img/1610260210124.jpeg" alt="">
+                </div>
+                <div class="md:w-1/2 w-full flex flex-col justify-center gap-4 text-start">
+                    <div class="flex justify-between">
+                        <p class="text-slate-500 font-semibold uppercase">best packages - part 1</p>
+                        <p class="uppercase text-slate-500">24 may 2022</p>
+                    </div>
+                    <h3 class="font-bold text-2xl">Minimalist Guide to Flutter Hooks</h3>
+                    <p class="text-lg md:flex md:flex-col text-gray-500">Hook are a new kind of object that manages a widget life-<span>cyclos. Hooks are a new kind of object that manages a widget </span><span>life-cycles. they exist for one reason: increase the code-sharing </span><span>between widget by removing duplicates. they exist for one</span> reason: increase the fo-cycles. code-sharing between...</p>
+                </div>
+            </div>
+          </div>
+          <div id="topic2" class="w-full flex md:flex-row flex-col gap-12">
+            <div id="subtop" class="flex flex-col gap-6 md:w-1/2 w-full  ">
+                <div class="w-full">
+                    <img class="rounded-2xl" src="config/img/1610260210124.jpeg" alt="">
+                </div>
+                <div class="w-full flex flex-col justify-center gap-4 text-start">
+                    <div class="flex justify-between">
+                        <p class="text-slate-500 font-semibold uppercase">best packages - part 1</p>
+                        <p class="uppercase text-slate-500">24 may 2022</p>
+                    </div>
+                    <h3 class="font-bold text-2xl">Minimalist Guide to Flutter Hooks</h3>
+                    <p class="text-lg md:flex md:flex-col text-gray-500">Hook are a new kind of object that manages a widget life-<span>cyclos. Hooks are a new kind of object that manages a widget </span><span>life-cycles. they exist for one reason: increase the code-sharing </span><span>between widget by removing duplicates. they exist for one</span> reason: increase the fo-cycles. code-sharing between...</p>
+                </div>
+            </div>
+            <div id="subtop" class="flex flex-col gap-6 md:w-1/2 w-full ">
+                <div class="w-full">
+                    <img class="rounded-2xl" src="config/img/1610260210124.jpeg" alt="">
+                </div>
+                <div class="w-full flex flex-col justify-center gap-4 text-start">
+                    <div class="flex justify-between">
+                        <p class="text-slate-500 font-semibold uppercase">best packages - part 1</p>
+                        <p class="uppercase text-slate-500">24 may 2022</p>
+                    </div>
+                    <h3 class="font-bold text-2xl">Minimalist Guide to Flutter Hooks</h3>
+                    <p class="text-lg md:flex md:flex-col text-gray-500">Hook are a new kind of object that manages a widget life-<span>cyclos. Hooks are a new kind of object that manages a widget </span><span>life-cycles. they exist for one reason: increase the code-sharing </span><span>between widget by removing duplicates. they exist for one</span> reason: increase the fo-cycles. code-sharing between...</p>
+                </div>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+
+  <script>
+    function switchDark() {
+        const dark = document.documentElement.classList.toggle('dark')
+        console.log(dark);
+        if (dark==true) {
+            document.getElementById('iconDark').classList.replace("bx-sun","bx-moon")
+        }
+        else{
+            document.getElementById('iconDark').classList.replace("bx-moon","bx-sun")
+        }
+    }
+    var xstatus = false;
+    function showHideMenu(){
+                if(!xstatus){
+                    document.getElementById('menu').classList.remove('hidden')
+                    document.getElementById('menu').classList.add('block')
+                    xstatus=true
+                }
+                else{
+                    document.getElementById('menu').classList.remove('block')
+                    document.getElementById('menu').classList.add('hidden')
+                    xstatus=false
+                }
+                console.log(xstatus);
+            }
+  </script>
+</html>
